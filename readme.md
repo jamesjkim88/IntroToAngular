@@ -9,7 +9,6 @@
   - As we move on to this tutorial, I will be explaining angular's functionalities based on the project. 
 
 ##Things you need...
-  - NPM and or Bower Components.
   - Text Editor or IDE and Terminal.
   - NPM and or Bower Componenet installed into your machine.
   

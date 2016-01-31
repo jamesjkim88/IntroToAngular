@@ -1,7 +1,11 @@
 #Intro to Angular
 
 ##What is Angular?
-
+  - Angular is a structural javascript framework for dynamic web applications that follows the Model, View, Controller (MVC) structure.
+  - Angular revolves around the MVC structure letting you use HTML as your template language for data binding, forms and validation, adding new behavior to DOM, two-way binding, and many more!
+  - Angular is a powerful single page application meaning, your Angular Project will just work on a single-page of the browser.
+  - For more information you can always check out angular documentation and many more.
+  - [Angular Documentation](https://docs.angularjs.org/guide/introduction)
 
 ##Things you need...
   - NPM and or Bower Components

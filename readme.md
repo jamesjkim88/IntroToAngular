@@ -27,3 +27,4 @@
   - Two-Way binding
   - Forms
   - Angular Services
+  - Custom Angular Directives

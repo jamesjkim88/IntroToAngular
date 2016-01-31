@@ -21,4 +21,4 @@
   - If everything is good to, we can now start our Intro to Angular!
 
 ##Table of Contents
-  - Building a simple Hello World! app
+  - [Building a simple Hello World! app](https://github.com/jamesjkim88/IntroToAngular/tree/master/HelloWorld)

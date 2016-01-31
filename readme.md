@@ -9,9 +9,9 @@
   - As we move on to this tutorial, I will be explaining angular's functionalities based on the project. 
 
 ##Things you need...
-  - NPM and or Bower Components
-  - Text Editor or IDE and Terminal
-  - NPM and or Bower Componenet installed into your machine
+  - NPM and or Bower Components.
+  - Text Editor or IDE and Terminal.
+  - NPM and or Bower Componenet installed into your machine.
   
 ##Angular Setup...
   - After installing NPM and or Bower Component, go into your terminal and type ```npm install angular``` or ```bower install angular```
@@ -22,3 +22,8 @@
 
 ##Table of Contents
   - [Building a simple Hello World! app](https://github.com/jamesjkim88/IntroToAngular/tree/master/HelloWorld)
+  - Directives
+  - Angular Functions/Methods
+  - Two-Way binding
+  - Forms
+  - Angular Services

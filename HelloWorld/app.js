@@ -1,3 +1,5 @@
-/**
- * Created by jameskim on 1/30/16.
- */
+var app = angular.module("app", []);
+app.controller("mainCtrl", function($scope){
+    $scope.message = "Hello World!";
+    $scope.congrats = "You just built your first Angular Project!! Congrats!";
+});

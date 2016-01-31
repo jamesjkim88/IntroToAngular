@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Hello World</title>
+    <link rel="stylesheet" href="../base.css">
 </head>
 <body>
-
+    <div class="container" ng-controller="mainCtrl">
+        <h1>{{message}} {{congrats}}</h1>
+    </div>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

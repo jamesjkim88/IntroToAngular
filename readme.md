@@ -6,6 +6,7 @@
   - Angular is a powerful single page application meaning, your Angular Project will just work on a single-page of the browser.
   - For more information you can always check out angular documentation and many more.
   - [Angular Documentation](https://docs.angularjs.org/guide/introduction)
+  - As we move on to this tutorial, I will be explaining angular's functionalities based on the project. 
 
 ##Things you need...
   - NPM and or Bower Components

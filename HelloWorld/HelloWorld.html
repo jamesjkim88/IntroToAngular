@@ -8,6 +8,26 @@
 <body>
     <div class="container" ng-controller="mainCtrl">
         <h1>{{message}} {{congrats}}</h1>
+        <h2>What is ... ?</h2>
+        <ul>
+            <li>
+                <h3>angular.module</h3> angular.module is a colleciton of angular services, directives, controllers, filters, and configuration information.
+                angular.module takes two arguments, the module name (in which case we used "app") and an array of dependencies.
+                (for this application we do not require any depdencies, but still require to put in an empty array; if not you will get Uncaught Errors.)
+            </li>
+            <li>
+                <h3>controller/ng-controller:</h3><li>controller: controller is the logic or the brain of the application</li>
+            <li>
+                ng-controller: an angular directive that attaches the controller from the js file to your html <br>
+                you can add your ng-controller inside appropriate html tags.
+            </li>
+            </li>
+            <br>
+            <li><h3>$scope:</h3> Is an object that refers to the model application. $scope is where you can add values and functions and attached to
+                <br>
+                to the DOM to bind to the View.
+            </li>
+        </ul>
     </div>
     <script src="../bower_components/angular/angular.js"></script>
     <script src="app.js"></script>

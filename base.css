@@ -29,3 +29,11 @@ button:hover, input[type="submit"]:hover {
     transition: all 150ms ease;
     cursor: pointer;
 }
+
+ul li{
+    list-style: none;
+}
+
+h3{
+    border-bottom: 1px solid black
+}

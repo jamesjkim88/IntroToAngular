@@ -21,6 +21,9 @@
 
 ##Table of Contents
   - [Building a simple Hello World! app](https://github.com/jamesjkim88/IntroToAngular/tree/master/HelloWorld)
+    - angular.module
+    - $scope
+    - controller/ng-controller
   - Directives
   - Angular Functions/Methods
   - Two-Way binding

@@ -24,9 +24,11 @@
     - angular.module
     - $scope
     - controller/ng-controller
+  - Two-Way binding
+    - What is two-way binding?
+    - ng-model
   - Directives
   - Angular Functions/Methods
-  - Two-Way binding
   - Forms
   - Angular Services
   - Custom Angular Directives

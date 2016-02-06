@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Two-Way Binding</title>
+    <link rel="stylesheet" href="../base.css">
+    <script src="../bower_components/angular/angular.js"></script>
+    <script>
+
+        // Code for Example 1
+
+        /*If you dont understand what's going on in this code
+        please refer to the HelloWorld app.
+         */
+
+        var app = angular.module("app", []);
+
+        app.controller("mainCtrl", function($scope){
+            $scope.twoWay = "Two-Way Binding";
+        });
+
+    </script>
+</head>
+<body ng-controller="mainCtrl">
+
+    <h1>What is Two-Way Binding in AngularJS?</h1>
+        <ul>
+            <li>
+                Two Way Binding always syncs the model and view at the same time. Meaning, if there is a change in the model, the view would change according
+                to the model change and visa versa.
+            </li>
+            <br>
+            <li>
+                In order for two way binding to work, we need to use <code>ng-model</code> into our html page. Here is an example:
+                <br>
+                &ltinput ng-model="someData"&gt
+                <br>
+                ng-model or ngModel (the camel case means there is a dash before the "M", just like ng-model) directive will update the model whenever the view changes.
+            </li>
+            <br>
+            <li>Mess around with the example and try to code it out and do something different!</li>
+        </ul>
+
+    <h1>Start typing into the input boxes and see what happens!</h1>
+    <form>
+        <h2>Two-Way Binding Example 1</h2>
+        <input type="text" ng-model="twoWay">
+        <h3>This is two-way binding: {{twoWay}}</h3>
+    </form>
+
+    <form>
+        <h2>Two-Way Binding Example 2</h2>
+        <input type="text" ng-model="name" placeholder="Please Type your Name">
+        <h3>name: {{name}}</h3>
+    </form>
+
+</body>
+</html>

@@ -20,11 +20,11 @@
   - If everything is good to, we can now start our Intro to Angular!
 
 ##Table of Contents
-  - [Building a simple Hello World! app](HelloWorld.html))
+  - [Building a simple Hello World! app](https://github.com/jamesjkim88/IntroToAngular/tree/master/HelloWorld)
     - angular.module
     - $scope
     - controller/ng-controller
-  - [Two-Way binding](TwoWayBinding.html)
+  - [Two-Way binding](https://github.com/jamesjkim88/IntroToAngular/tree/master/TwoWayBinding)
     - What is two-way binding?
     - ng-model
   - Directives

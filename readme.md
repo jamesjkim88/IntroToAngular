@@ -24,7 +24,7 @@
     - angular.module
     - $scope
     - controller/ng-controller
-  - [Two-Way binding](https://github.com/jamesjkim88/IntroToAngular/tree/master/TwoWayBinding)
+  - [Two-Way binding](https://github.com/jamesjkim88/IntroToAngular/tree/master/Two-WayBinding)
     - What is two-way binding?
     - ng-model
   - Directives

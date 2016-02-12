@@ -27,7 +27,7 @@
   - [Two-Way binding](https://github.com/jamesjkim88/IntroToAngular/tree/master/Two-WayBinding)
     - What is two-way binding?
     - ng-model
-  - Directives
+  - [Directives](https://github.com/jamesjkim88/IntroToAngular/tree/master/Directives)
   - Angular Functions/Methods
   - Forms
   - Angular Services

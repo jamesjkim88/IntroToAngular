@@ -28,6 +28,8 @@
     - What is two-way binding?
     - ng-model
   - [Directives](https://github.com/jamesjkim88/IntroToAngular/tree/master/Directives)
+    - ng-repeat
+    - ng-show and ng-hide
   - Angular Functions/Methods
   - Forms
   - Angular Services

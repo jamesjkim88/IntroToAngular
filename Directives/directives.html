@@ -1,14 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="directives">
 <head>
     <meta charset="UTF-8">
     <title>Directives</title>
     <link rel="stylesheet" href="../normalize.css">
+    <script src="../bower_components/angular/angular.js"></script>
+    <script>
+
+        var app = angular.module("directives", []);
+
+        app.controller("mainCtrl", function($scope){
+            //adding array of objects to use ng-repeat directives...
+            $scope.cars = [
+                {
+                    brand: "Honda",
+                    model: "S2000"
+                },
+                {
+                    brand: "Ferrari",
+                    model: "F40"
+                },
+                {
+                    brand: "Infiniti",
+                    model: "G37"
+                },
+                {
+                    brand: "Datsun",
+                    model: "240z"
+                }
+            ];
+        })
+
+    </script>
 </head>
 <body>
-    <h1>Angular Directives!!!</h1>
-    <h2>What is directives in Angular?</h2>
-    <p>If you haven't noticed, we have used directives in our previous two applications.</p>
-    <p>Does ng-app and ng-controller sound familiar?? Hope they do because they are one of many Angular's directives.</p>
+<h1>Angular Directives</h1>
+<div ng-controller="mainCtrl">
+    <h2>ngRepeat</h2>
+    <h3>List of cars</h3>
+    <ul>
+        <li ng-repeat="car in cars"><span style="font-weight: 300">Brand</span>: {{car.brand}}, <span style="font-weight: 300">Model</span>: {{car.model}}</li>
+    </ul>
+    <p>You see how the data got looped through and got displayed using <code>ng-repeat</code>.</p>
+    <p><code>ng-repeat</code> is a lot like the <code>for in loop</code>... Look at the syntax for <code>ng-repeat</code>... In direction translation, its pretty much saying...</p>
+    <span>for every "car" (key) in "cars" (value)</span>
+    <!-- BREAK -->
+    <br/>
+    <br>
+    <br>
+    <!-- BREAK -->
+    <h2>ngHide and ngShow</h2>
+    <input name="input" type="text" placeholder="type anything you want" ng-model="string">
+    <span ng-show="string">ngShow is working</span>
+    <button ng-hide="string">Will this button hide if you type something into the input???</button>
+
+    <p>You see how the button hides and the "ngShow is working" shows up and on top of that we really didnt need to write anything on the JavaScript side.</p>
+    <p><code>ng-model</code> will bind whatever text is in the input bar and <code>ng- show</code> and <code>ng-hide</code> directives will see if there is a text in the input</p>
+    <p>So pretty much <code>ng- show</code> and <code>ng-hide</code> checks if "string" is being binded if it is then show if not then hide</p>
+    <!-- BREAK -->
+    <br/>
+    <br>
+    <br>
+    <!-- BREAK -->
+    <h3>For more help on directives, please refer to the directives.md and click on the reference links on the bottom.</h3>
+
+</div>
 </body>
 </html>

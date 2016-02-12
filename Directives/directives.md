@@ -12,6 +12,6 @@
   understand directives and custom directives on your own.
   
 #References
-[Angular Directives in Angular Reference](https://docs.angularjs.org/guide/directive)
-[sitepoint](http://www.sitepoint.com/practical-guide-angularjs-directives/)
-[w3schools](http://www.w3schools.com/angular/angular_directives.asp)
+ - [Angular Directives in Angular Reference](https://docs.angularjs.org/guide/directive).
+ - [sitepoint](http://www.sitepoint.com/practical-guide-angularjs-directives/).
+ - [w3schools](http://www.w3schools.com/angular/angular_directives.asp).
